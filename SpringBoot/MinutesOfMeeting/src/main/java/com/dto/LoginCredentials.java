@@ -1,4 +1,6 @@
-package com.example.MoM.dto;
+package com.dto;
+
+import org.springframework.web.bind.annotation.PostMapping;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,15 +13,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class MemberDto {
-
-	private int memberId;
-	private String name;
-	private String organisationName;
-	private String mobileNo;
-	private String role;
-	private String address;
-	private String gender;
+public class LoginCredentials {
 	private String loginId;
 	private String password;
 
